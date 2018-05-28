@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos de Usuario "
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+    <EditText
+        android:id="@+id/etxt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:padding="25dp"/>
+    <EditText
+        android:id="@+id/etxt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE"
+        android:padding="25dp"/>
+    <EditText
+        android:id="@+id/etxt_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TELEFONO"
+        android:padding="25dp" />
+    <Button
+        android:id="@+id/btn_cargarusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargar Usuario" />
+    <Button
+        android:id="@+id/btn_volver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"/>
+</LinearLayout>
